@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eleven.Models", "Eleven.Mod
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote.Services", "ElevenNote.Services\ElevenNote.Services.csproj", "{1E928B0E-F23C-4183-8041-21A361B519B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElevenNote.Models", "ElevenNote.Models\ElevenNote.Models.csproj", "{B55F93DA-5C1A-4FE2-B0AA-00DEBBEF5B9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{1E928B0E-F23C-4183-8041-21A361B519B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E928B0E-F23C-4183-8041-21A361B519B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E928B0E-F23C-4183-8041-21A361B519B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B55F93DA-5C1A-4FE2-B0AA-00DEBBEF5B9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B55F93DA-5C1A-4FE2-B0AA-00DEBBEF5B9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B55F93DA-5C1A-4FE2-B0AA-00DEBBEF5B9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B55F93DA-5C1A-4FE2-B0AA-00DEBBEF5B9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

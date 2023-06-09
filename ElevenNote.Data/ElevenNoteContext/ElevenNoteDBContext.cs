@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ElevenNote.Data.ElevenNoteContext
 {
-    public class ElevenNoteDBContext : DbContext
+    public class ElevenNoteDBContext : IdentityDbContext<UserEntity>
     {
         public ElevenNoteDBContext(DbContextOptions options) :base(options) { }
 
@@ -39,7 +39,7 @@ namespace ElevenNote.Data.ElevenNoteContext
                 new CategoryEntity
                 {
                     Id = 5,
-                    Name = "Video"
+                    Name = "Video Games"
                 }
             );
         }

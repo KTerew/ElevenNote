@@ -1,4 +1,6 @@
 using ElevenNote.Data.ElevenNoteContext;
+using ElevenNote.Data.Entities;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +14,8 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ElevenNoteDBContext>(options => {
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
+builder.Services.AddIdentityCore<UserEntity>().AddRoles<IdentityRole>().AddEntityFrameworkStores<ElevenNoteDBContext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

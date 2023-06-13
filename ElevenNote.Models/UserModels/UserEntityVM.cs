@@ -5,9 +5,9 @@ namespace ElevenNote.Models.UserModels
     public class UserEntityVM : LoginVM
     {
         [Required]
-        public string FirstName { get; set; }
+        public string FirstName { get; set; } = null!;
 
         [Required]
-        public string LastName { get; set; }
+        public string LastName { get; set; } = null!;
     }
 }

@@ -9,7 +9,7 @@ namespace ElevenNote.Data.ElevenNoteContext
         public ElevenNoteDBContext(DbContextOptions options) :base(options) { }
 
         public DbSet<NoteEntity> Notes { get; set; }
-        public DbSet<CategoryEntity> Catergory { get; set; }
+        public DbSet<CategoryEntity> Categories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
